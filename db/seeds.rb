@@ -13,3 +13,8 @@ Movie.create(title: "Ocean's Eight", overview: "Debbie Ocean, a criminal masterm
 List.create(name: "Drama")
 List.create(name: "All time favourites")
 List.create(name: "Girl Power")
+
+Bookmark.new(comment: "1234", movie_id: 1, list_id: 1)
+Bookmark.new(comment: "1234", movie_id: 3, list_id: 2)
+Bookmark.new(comment: "1234", movie_id: 2, list_id: 3)
+Bookmark.new(comment: "1234", movie_id: 2, list_id: 4)
